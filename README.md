@@ -10,8 +10,8 @@ Every five years or so, a couple of governing bodies release coefficients data f
 calculating the magnetic declination at a given lat/lng and time.
 
 [GeoMag] takes data from the World Magnetic Model Coefficients, [WmmCof],
-to initialize. You can provide your own or use the bundled data, WMM-2015v2
-from 09/18/2018. Use [calculate()] to process GPS coordinates into a
+to initialize. You can provide your own or use the bundled data, WMM-2025.
+Use [calculate()] to process GPS coordinates into a
 [GeoMagResult].
 
 Accuracy is roughly within 0.2 degrees of test values.
